@@ -1,0 +1,7 @@
+claude --version
+
+node --version
+
+python --version
+
+npm --version
