@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -c \"import sys, json, subprocess; p = json.load(sys.stdin).get('tool_input', {}).get('file_path', ''); p.endswith('.py') and subprocess.run([sys.executable, '-m', 'black', p, '--quiet'])\"",
+            "async": false
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[DailyPulse] Claude finished — review output above\" 1>&2",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

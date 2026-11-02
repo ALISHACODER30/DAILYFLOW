@@ -1,0 +1,83 @@
+[
+  {
+    "id": "0ae9a59b-0f0d-448e-a3ef-892f16466e45",
+    "title": "Prepare weekly team report",
+    "subtasks": [
+      "Gather metrics from last week",
+      "Summarize key wins and blockers",
+      "Draft report in the shared doc",
+      "Send to team for review"
+    ],
+    "completed": true,
+    "completed_at": "2026-11-01T23:24:55.756669",
+    "created_at": "2026-11-01T20:24:55.756669"
+  },
+  {
+    "id": "1c086b70-45e7-41bc-b1e6-4d79a8f064ea",
+    "title": "Plan grocery shopping",
+    "subtasks": [
+      "List meals for the week",
+      "Check pantry for existing items",
+      "Write shopping list",
+      "Order or buy groceries"
+    ],
+    "completed": false,
+    "completed_at": null,
+    "created_at": "2026-11-01T21:24:55.756669"
+  },
+  {
+    "id": "218cdda8-0bcb-404c-a419-654a5432780a",
+    "title": "Learn FastAPI basics",
+    "subtasks": [
+      "Read the official tutorial intro",
+      "Build a simple GET endpoint",
+      "Add a POST endpoint with validation",
+      "Test endpoints in /docs"
+    ],
+    "completed": false,
+    "completed_at": null,
+    "created_at": "2026-11-01T22:24:55.756669"
+  },
+  {
+    "id": "e3d6d0c4-6222-422b-b9f6-f53cb3af1e92",
+    "title": "Complete the Awesome Claude code project",
+    "subtasks": [
+      "Define project scope and required deliverables (features, documentation, resources list)",
+      "Set up the project repository with structure, README, and contribution guidelines",
+      "Research and collect Claude Code resources, tools, and examples to include",
+      "Create and review all core content sections for accuracy and completeness",
+      "Test, polish, and publish the final project with proper licensing and promotion"
+    ],
+    "completed": true,
+    "completed_at": "2026-11-02T01:01:13.117350",
+    "created_at": "2026-11-02T01:00:35.331576"
+  },
+  {
+    "id": "e9a09f49-1dee-48e9-a988-eb52833e61e8",
+    "title": "Learned about sub-agents",
+    "subtasks": [
+      "Define what sub-agents are and how they differ from main agents",
+      "Research common use cases and architectures for sub-agents",
+      "Study how sub-agents communicate and coordinate with parent agents",
+      "Review real-world frameworks that implement sub-agents (e.g., Claude Code, AutoGen)",
+      "Build a small prototype using a sub-agent to solidify understanding"
+    ],
+    "completed": false,
+    "completed_at": null,
+    "created_at": "2026-11-02T02:02:03.671365"
+  },
+  {
+    "id": "fc2c26bf-8a60-453d-82a3-78a275caec3c",
+    "title": "Done Awesome Claude Code Project",
+    "subtasks": [
+      "Set up the project repository with README, license, and folder structure",
+      "Research and compile a curated list of Claude Code resources, tools, and examples",
+      "Write clear descriptions and categories for each listed resource",
+      "Add contribution guidelines and templates for community submissions",
+      "Test all links, review content for accuracy, and publish the final project"
+    ],
+    "completed": true,
+    "completed_at": "2026-11-02T12:07:09.282180",
+    "created_at": "2026-11-02T02:02:40.270739"
+  }
+]

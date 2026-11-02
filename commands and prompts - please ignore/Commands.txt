@@ -5,3 +5,21 @@ node --version
 python --version
 
 npm --version
+
+git init
+
+mkdir -p backend frontend .claude/{skills,agents,hooks}
+touch .claude/settings.json
+touch backend/.env
+
+echo "node_modules/" >> .gitignore
+echo ".env" >> .gitignore
+echo "__pycache__/" >> .gitignore
+
+/plugin marketplace add github:anthropics/claude-plugins-official
+/plugin install frontend-design@claude-plugins-official
+/plugin install context7@claude-plugins-official
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
